@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Tickets Dinámicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .ticket-status {
+            margin: 20px 0;
+            padding: 15px;
+            font-weight: bold;
+        }
+        label, input, select {
+            display: block;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Panel de Tickets Dinámicos</h1>
+    <div class="container">
+        <h2>Ticket de desarrollo</h2>
+        <p>Estado del ticket:</p>
+        <select id="current_status_ticket" class="ticket-status">
+            <option value="In Progress">In Progress</option>
+            <option value="Under Construction">Under Construction</option>
+            <option value="Ready to Integrate">Ready to Integrate</option>
+        </select>
+
+        <!-- Campos de texto -->
+        <label for="ticket_title">Título del ticket:</label>
+        <input type="text" id="ticket_title" placeholder="Escribe el título del ticket...">
+
+        <label for="ticket_description">Descripción del ticket:</label>
+        <textarea id="ticket_description" placeholder="Describe el ticket..." rows="4"></textarea>
+
+        <!-- Botones -->
+        <button id="submit_button">Enviar Ticket</button>
+        <button id="reset_button">Resetear Campos</button>
+    </div>
+
+    <script>
+        // Función para seleccionar un estado aleatorio al cargar la página
+        function seleccionarEstadoAleatorio() {
+            const estados = ["In Progress", "Under Construction", "Ready to Integrate"];
+            const indiceAleatorio = Math.floor(Math.random() * estados.length);
+            const estadoAleatorio = estados[indiceAleatorio];
+
+            // Cambiar el estado del select
+            const select = document.getElementById("current_status_ticket");
+            select.value = estadoAleatorio;
+        }
+
+        // Asignar estado dinámico al cargar la página
+        window.onload = function() {
+            seleccionarEstadoAleatorio();
+        };
+
+        // Resetear los campos del formulario
+        document.getElementById('reset_button').onclick = function() {
+            document.getElementById('ticket_title').value = '';
+            document.getElementById('ticket_description').value = '';
+            document.getElementById('current_status_ticket').value = 'In Progress'; // Restablecer al valor por defecto
+        };
+    </script>
+</body>
+</html>
