@@ -15,3 +15,8 @@ Este proyecto utiliza **Selenium** y **openpyxl** para automatizar el seguimient
 
 ## Uso:
 Este bot es ideal para entornos donde se requiere el monitoreo continuo del estado de tickets o casos en una plataforma web, sin intervención manual. Automatiza el proceso de verificación de estados y actualización de registros en Excel, mejorando la eficiencia y precisión en el seguimiento de tickets.
+
+## Licencia
+
+Este proyecto está protegido bajo una **Licencia de Uso Restringido**. No se permite la utilización comercial, redistribución o edición del código sin el consentimiento previo y por escrito de Jose Ortega. Para solicitar permiso para modificar el código, por favor contacta a [iadev.info@gmail.com]. Para más detalles, consulta el archivo [LICENSE](./LICENSE).
+

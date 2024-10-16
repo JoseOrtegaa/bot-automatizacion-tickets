@@ -1,0 +1,26 @@
+Licencia de Uso Restringido
+Términos y Condiciones
+Este software y su código fuente, incluyendo todos sus componentes, bibliotecas y dependencias (en adelante, IADev), son propiedad exclusiva de IADev y están protegidos por las leyes de derechos de autor y tratados internacionales. Al utilizar el Software, aceptas cumplir con los términos de esta licencia.
+
+1. Concesión de Licencia
+Se concede al usuario una licencia no exclusiva, intransferible y revocable para utilizar el Software únicamente con fines personales y de evaluación. Esta licencia no permite ningún tipo de uso comercial, modificación, redistribución o publicación del Software.
+
+2. Restricciones
+El usuario no podrá:
+
+Modificar: Alterar, transformar, adaptar o crear trabajos derivados del Software sin el consentimiento previo y por escrito de IADev.
+Redistribuir: Repartir, publicar o poner a disposición el Software, en su forma original o modificada, a terceros.
+Usar Comercialmente: Utilizar el Software para fines comerciales o de lucro, ya sea directa o indirectamente.
+3. Solicitud de Permiso para Modificar
+Si el usuario desea modificar el Software, debe solicitar autorización previa y por escrito a IADev. Cualquier modificación sin autorización constituirá una violación de esta licencia.
+
+4. Limitaciones de Responsabilidad
+El Software se proporciona "tal cual", sin garantías de ninguna clase, expresas o implícitas, incluyendo, pero no limitándose a, garantías de comerciabilidad, idoneidad para un propósito particular y no infracción de derechos de propiedad intelectual. En ningún caso, IADev será responsable por daños directos, indirectos, incidentales, especiales o consecuentes que surjan del uso o la imposibilidad de uso del Software.
+
+5. Terminación
+Esta licencia se terminará automáticamente si el usuario incumple cualquiera de los términos y condiciones establecidos. Al finalizar, el usuario deberá cesar todo uso del Software y destruir cualquier copia en su posesión.
+
+6. Legislación Aplicable
+Esta licencia se regirá e interpretará de acuerdo con las leyes de España. Cualquier disputa que surja en relación con esta licencia se someterá a la jurisdicción exclusiva de los tribunales de Madrid.
+
+Al utilizar el Software, el usuario acepta estar sujeto a los términos y condiciones de esta licencia.
