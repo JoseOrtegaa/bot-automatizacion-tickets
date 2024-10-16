@@ -18,5 +18,5 @@ Este bot es ideal para entornos donde se requiere el monitoreo continuo del esta
 
 ## Licencia
 
-Este proyecto está protegido bajo una **Licencia de Uso Restringido**. No se permite la utilización comercial, redistribución o edición del código sin el consentimiento previo y por escrito de Jose Ortega. Para solicitar permiso para modificar el código, por favor contacta a [iadev.info@gmail.com]. Para más detalles, consulta el archivo [LICENSE](./LICENSE).
+Este proyecto está protegido bajo una **Licencia de Uso Restringido**. No se permite la utilización comercial, redistribución o edición del código sin el consentimiento previo y por escrito de Jose Ortega. Para solicitar permiso para modificar el código, por favor contacta a [iadev.info@gmail.com]. Para más detalles, consulta el archivo [LICENSE](./LICENSE.txt).
 
