@@ -1,0 +1,8 @@
+Puntos a revisar:
+
+1) El tema del login en la pagina del Jira. Deberia poder entrar ya que existe autologin. En caso de no poder entrar, Mostrar error "Logeate para poder continuar"
+** Control de sesiones, mirar el autologin.
+
+2) DriverChrome (ya esta asi pero es importante)
+
+3) Se quiere lanzar este bot mediante una interfaz visual. La cual tenga botones. El botón principal será el que lanza la accion principal del bot. "Actualización de estados de Jira"
